@@ -14,7 +14,7 @@ Exact Term Search (but NOT Top-N Search)
 JTable for Exact Term Search
 
 Docker commands: 
-docker build -t <imagename> .
+docker build -t < imagename > .
 
 On xQuartz: 
 docker run --rm -e DISPLAY=<HOST_IP>:0 < imagename >
