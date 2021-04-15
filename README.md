@@ -17,6 +17,6 @@ Docker commands:
 docker build -t <imagename> .
 
 On xQuartz: 
-docker run --rm -e DISPLAY=<HOST_IP>:0 <imagename>
+docker run --rm -e DISPLAY=<HOST_IP>:0 < imagename >
 
 Overall, the project was not too bad. It wasn't very code-heavy but it definitely required a lot of research. Some of the problems I ran into were not very well-documented and only had a couple of answers on StackOverflow. But I learned a lot through this project. 
